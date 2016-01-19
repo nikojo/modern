@@ -1,0 +1,56 @@
+{
+  "versionLabel": "3.1",
+  "uuid": "ee627cb9-cbee-461c-a49e-d2f650ed6835",
+  "appKeys": {
+        "KEY_MINUTE_COLOR_R": 0,
+        "KEY_MINUTE_COLOR_G": 1,
+        "KEY_MINUTE_COLOR_B": 2,
+        "KEY_HOUR_COLOR_R": 3,
+        "KEY_HOUR_COLOR_G": 4,
+        "KEY_HOUR_COLOR_B": 5
+  },
+  "longName": "Tomz Modern for Color",
+  "versionCode": 1,
+  "capabilities": [
+    "configurable"
+  ],
+  "shortName": "Tomz Modern Color",
+  "companyName": "Jonan Technologies Inc.",
+  "watchapp": {
+    "watchface": true
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "BLUETOOTH",
+        "file": "images/bluetooth2.png"
+      },
+      {
+        "type": "png",
+        "name": "BATTERY_CHARGE",
+        "file": "images/battery-charge.png"
+      },
+      {
+        "type": "png",
+        "name": "BATTERY_ICON",
+        "file": "images/battery_icon.png"
+      },
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/modern_logo.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND",
+        "file": "images/modern_background_new.png"
+      }
+    ]
+  },
+  "targetPlatforms": [
+    "basalt"
+  ],
+  "sdkVersion": "3"
+}
